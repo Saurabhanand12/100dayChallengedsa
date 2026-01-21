@@ -14,7 +14,7 @@
 //                 sum +=l1->val;
 //                 l1= l1->next;
 //             }
-//             if(l2 != NULL) {
+//             if(l2 != NULL) {                       // tc = o(n)  = sp = O(1);
 //                 sum +=l2->val;
 //                 l2= l2->next;
 //             }
@@ -29,6 +29,8 @@
 //         return newnode->next;
 //     }
 // };
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 // ADDTWO NUMBER 2 
@@ -49,8 +51,8 @@
 //     }
 //     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
 //     ListNode* a = reverse(l1);
-//     ListNode* b = reverse(l2);
-
+//     ListNode* b = reverse(l2);                                        // tc = o(n)  = sp = O(1);
+ 
 //     ListNode* newnode = new ListNode(0);
 //     ListNode* temp = newnode;
 //     int carry = 0;

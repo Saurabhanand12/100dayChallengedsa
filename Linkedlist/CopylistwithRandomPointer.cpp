@@ -9,7 +9,7 @@
 //             Node* a = new Node(temp->val);
 //             tempC->next = a;
 //             temp = temp ->next;
-//             tempC = tempC ->next;
+//             tempC = tempC ->next;                            // tc = O(n) = sp = O(n)
 //         }
 //         Node* b = dummy->next;
 //         Node* a = head;
